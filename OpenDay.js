@@ -1,4 +1,4 @@
-const api_url="D:/CARDIFF/Test1CardiffUni/OpenDay.json";
+
 
 var material;
 
