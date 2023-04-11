@@ -1,0 +1,42 @@
+/* Center align the heading */
+#heading {
+  text-align: center;
+  background-color: #0b3c5d;
+  padding: 20px;
+  color: #f9f9f9;
+}
+
+/* Style for search input */
+#mysearch {
+  padding: 10px;
+  border: none;
+  margin-top: 15px;
+  text-align: center;
+  cursor: pointer;
+  width: 98.5%;
+  color: #f9f9f9;
+  background-color: #0f1626; /*#f9cf00;*/
+}
+
+/* Style for the output div */
+#output {
+  margin-top: 20px;
+  float: center;
+  width: 98%;
+  padding: 1%;
+  text-align: justify;
+}
+
+/* Style for each program result div */
+.sub_div {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border: 2px solid #0b3c5d;
+}
+
+@media screen and (max-width: 500px) {
+  #output {
+    width: 100%;
+  }
+}
